@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #ddd !important;
     overflow-x: hidden;
@@ -17,23 +22,40 @@ legend {
     color: #000000;
     border: 0;
     border-bottom: none;
-  }
+}
+
+.main-pg{
+    background: url('https://img.freepik.com/free-vector/topographic-map-contour-lines-top-view_23-2148582768.jpg?size=626&ext=jpg') ;
+    height: 100vh;
+    width: 100%;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
 
 nav{
-    background: white !important;
     padding: 20px 0px !important;
-    border-bottom: 1px solid rgb(228, 228, 228);
+} 
+.navbar{
+    transition:500ms ease;
 }
+
+.navbar.scrolled{
+    padding: 10px 0px !important;
+    background:rgb(255, 255, 255);
+}
+
 
 nav ul li a{
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.2px;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 }
 
 nav ul li{
     padding: 0px 20px;
 }
+
 
 #tool{
     width: 100%;
@@ -50,7 +72,11 @@ a.navbar-brand{
     font-weight: 500;
     font-size: 2rem;
     margin-left: 1rem;
-    color: rgb(70, 70, 70) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+a.navbar-brand .brand-color{
+    color: orangered;
 }
 
 .navbar-toggler{
@@ -62,4 +88,8 @@ a.navbar-brand{
 .carousel-item img{
     width: 100%;
     height: 30rem;
+}
+
+.back-to-top{
+    margin-left: auto;
 }
