@@ -3,40 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>Leaflet</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Site Analyzer</title>
 </head>
 <body>
 
     <div class="main-pg">
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><span id="text-black">Site</span> <span class="brand-color">Analyzer</span></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Tool</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Creators</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Tool</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Creators</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav> 
+    
+
+        <div class="container wrapper">
+            <div class="hero">
+                <h1 style="color: white;">Site <span style="color: orangered !important;">Analyzer</span></h1>
+                <h5 style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, iste.</h1>
+            </div>
+        </div>
+
     </div>
     <!-- <div class="row carousel-row">
         <div class="col">
@@ -67,7 +76,7 @@
         </div>
     </div> -->
 
-    <div class="container tool">
+    <div class="tool">
         <div class="row row-content">
             <div class="col-12">
                 <div id="tool"><object height="100%" width="100%" data="./leaflet.html" type="text/html"></object></div>
@@ -87,14 +96,14 @@
 
     <script>
         $(window).scroll(function(){
-	        $('nav').toggleClass('scrolled', $(this).scrollTop() > 150);
-            $('nav').toggleClass('navbar-light', $(this).scrollTop() > 150);
+	        $('nav').toggleClass('scrolled', $(this).scrollTop() > 40);
+            $('nav').toggleClass('navbar-light', $(this).scrollTop() > 40);
         });
 
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
-            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
                 document.getElementById("navbar").classList.add("navbar-light");
                 document.getElementById("navbar").classList.remove("navbar-dark");
                 document.getElementById("text-black").style.color="black";
