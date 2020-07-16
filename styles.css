@@ -130,7 +130,8 @@ a.navbar-brand .brand-color{
 
 .back-to-top span{
     color: black;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.2rem;
+    padding: 0.3rem;
 }
 
 .section-title{
@@ -221,6 +222,10 @@ a.navbar-brand .brand-color{
     color: rgb(92, 92, 92);
 }
 
+.profile-content p span{
+    color: rgb(253, 122, 0);
+}
+
 .social-links{
     padding: 10px 0px;
 }
@@ -231,4 +236,49 @@ a.navbar-brand .brand-color{
 
 .social-links span{
     padding: 0px 5px;
+}
+
+.footer{
+    color: white;
+    background: black;
+}
+
+.brand-color{
+    color: orangered;
+}
+
+.quick-links{
+    padding: 40px 10px;
+    border-bottom: 1px solid white;
+}
+
+.tool-name{
+    font-size: 2rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links span{
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    margin: 0.2rem;
+}
+
+.links a:hover{
+    color: gray;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 0rem;
 }
