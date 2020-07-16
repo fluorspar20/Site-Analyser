@@ -166,7 +166,7 @@ a.navbar-brand .brand-color{
     text-align: center;
 }
 
-#about .row{
+#about .section-title{
     display: inline-block;
 }
 
@@ -192,6 +192,43 @@ a.navbar-brand .brand-color{
     align-items: center;
 }
 
-#tool-div .row{
+#tool-div .section-title{
     text-align: center;
+}
+
+#team .section-title{
+    text-align: center;
+}
+
+.profile-img{
+    margin: 1rem;
+    box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.team-description{
+    padding-top: 80px;
+}
+
+.team-content{
+    padding: 15px 0px;
+}
+
+.profile-content h3{
+    color: blueviolet;
+    font-weight: 500;
+}
+.profile-content p{
+    color: rgb(92, 92, 92);
+}
+
+.social-links{
+    padding: 10px 0px;
+}
+
+.social-links a{ 
+    color: black;
+}
+
+.social-links span{
+    padding: 0px 5px;
 }

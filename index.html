@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Site Analyser</title>
 </head>
+
 <body onload="loadFunc()">
 
     <div id="loading"></div>
@@ -18,32 +23,33 @@
     <div class="main-pg">
         <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#"><span id="text-black">Site</span> <span class="brand-color">Analyser</span></a>
+                <a class="navbar-brand" href="#"><span id="text-black">Site</span> <span
+                        class="brand-color">Analyser</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="fa fa-bars"></span>
+                    <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li id="home-link" class="nav-item active">
                             <a class="nav-link" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li id="about-link" class="nav-item">
                             <a class="nav-link" href="#about">About</a>
                         </li>
-                        <li class="nav-item">
+                        <li id="howto-link" class="nav-item">
                             <a class="nav-link" href="#howTo">How to Use?</a>
                         </li>
-                        <li class="nav-item">
+                        <li id="tool-link" class="nav-item">
                             <a class="nav-link" href="#tool-div">Tool</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Team</a>
+                        <li id="team-link" class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav> 
-    
+        </nav>
+
 
         <div class="container wrapper">
             <div class="hero">
@@ -91,7 +97,11 @@
                         <h2 class="m-auto">About</h2>
                     </div>
                     <div class="section-content" data-aos="fade-up" data-aos-duration="1500">
-                        <p>Site Analyser is a free, simple, and easy to use tool with lots of functions. Helpful to Architects, Urban Planners, and Students for site analysis which is an important pre-designing process. This tool provides features like locating, drawing and editing the site, it also gives the area, perimeter, longitude & latitude of the site. Moreover it offers a wide variety of map options to choose from depending on the needs.
+                        <p>Site Analyser is a free, simple, and easy to use tool with lots of functions. Helpful to
+                            Architects, Urban Planners, and Students for site analysis which is an important
+                            pre-designing process. This tool provides features like locating, drawing and editing the
+                            site, it also gives the area, perimeter, longitude & latitude of the site. Moreover it
+                            offers a wide variety of map options to choose from depending on the needs.
                     </div>
                 </div>
             </div>
@@ -123,7 +133,8 @@
                         <p>8. Circular-Markers, to mark important places or destinations. </p>
                         <p>9. To save changes and edit features. </p>
                         <p>10. Delete existing features by clicking on them. </p>
-                        <p>11. Customize color, line weight, line type, opacity of features and by clicking on markers, even its color and logo can be changed. </p>
+                        <p>11. Customize color, line weight, line type, opacity of features and by clicking on markers,
+                            even its color and logo can be changed. </p>
                         <p>12. Search button, used to search locations by selecting options from drop down list. </p>
                     </div>
                 </div>
@@ -136,7 +147,8 @@
                 </div>
                 <div class="col-12 col-sm-8">
                     <div class="howTo-content">
-                        <p>1. Create your own polygon or shape for measurements, it also gives area, perimeter, longitude and latitude of the points plotted.</p>
+                        <p>1. Create your own polygon or shape for measurements, it also gives area, perimeter,
+                            longitude and latitude of the points plotted.</p>
                         <p>2. 35+ Maps to choose from based on your requirements. </p>
                     </div>
                 </div>
@@ -144,76 +156,180 @@
         </div>
     </div>
 
-        <div id="tool-div" class="tool">
+    <div id="tool-div" class="tool">
+        <div class="row row-content">
+            <div class="col-12">
+                <div class="section-title" data-aos="fade-up" data-aos-duration="1000">
+                    <h2 class="m-auto">Site Analyser</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content" data-aos="fade-up" data-aos-duration="1500">
+            <div class="col-12">
+                <div id="tool"><object height="100%" width="100%" data="./leaflet.html" type="text/html"></object></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div id="team">
             <div class="row row-content">
                 <div class="col-12">
                     <div class="section-title" data-aos="fade-up" data-aos-duration="1000">
-                        <h2 class="m-auto">Site Analyser</h2>
+                        <h2 class="m-auto">Our Team</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="row row-content" data-aos="fade-up" data-aos-duration="1500">
-                <div class="col-12">
-                    <div id="tool"><object height="100%" width="100%" data="./leaflet.html" type="text/html"></object></div>
+            <div class="team-description">
+                <div class="row team-content" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-12 col-md-3">
+                        <div class="profile-img">
+                            <img class="img-fluid" src="./assets/Amogh.jpg" alt="Amogh Dixit">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <div class="profile-content">
+                            <h3>Rutvik Deshpande</h3>
+                            <h5>Developer of Site Analyser</h5>
+                            <p>Studying Architecture at the National Institute of Technology, Raipur, Data Science enthusiast, and a tech content blogger for various publications on Medium. Interested in learning and using the application of AI, ML, and Data Science in Architecture and Construction Industry. Working on a few Location Intelligence and Spatial Data Science projects. Proficient in R and Python for DS & ML. </p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><span class="fa fa-linkedin fa-lg"></span></a>
+                            <a href="#"><span class="fa fa-github fa-lg"></span></a>
+                            <a href="#"><span class="fa fa-envelope fa-lg"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row team-content" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-12 col-md-3">
+                        <div class="profile-img">
+                            <img class="img-fluid" src="./assets/Amogh.jpg" alt="Amogh Dixit">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <div class="profile-content">
+                            <h3>Amogh Dixit</h3>
+                            <h5>Front-End Developer</h5>
+                            <p>A first year B.Tech student pursuing Electrical Engineering from Indian Institute of Technology, Indore. Web Development enthusiast and a tech-blogger at Dev Community. Interested in UI and backend development. Currently exploring React.js and its application in web development. Has made a few scalable projects using HTML, Javascript and React. Proficient in C++, Java, HTML,CSS and Javascript. </p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><span class="fa fa-linkedin fa-lg"></span></a>
+                            <a href="#"><span class="fa fa-github fa-lg"></span></a>
+                            <a href="#"><span class="fa fa-envelope fa-lg"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row team-content" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-12 col-md-3">
+                        <div class="profile-img">
+                            <img class="img-fluid" src="./assets/Amogh.jpg" alt="Amogh Dixit">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <div class="profile-content">
+                            <h3>Aditya Prakash</h3>
+                            <h5>UI/UX Designer</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, autem. Cupiditate iure pariatur, odio quaerat sunt, illum veniam nostrum laboriosam deserunt natus cum omnis quasi, neque asperiores sint incidunt perspiciatis alias suscipit eaque magni accusamus nesciunt! Ad dolorum dolore fugit.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><span class="fa fa-linkedin fa-lg"></span></a>
+                            <a href="#"><span class="fa fa-github fa-lg"></span></a>
+                            <a href="#"><span class="fa fa-envelope fa-lg"></span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
-    
-    <div class="container"></div>
 
         <div class="row row-content top">
             <a class="back-to-top" href="#"><span class="fa fa-arrow-up"></span></a>
         </div>
 
     </div>
-    
-    
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
 
         AOS.init();
 
         var preloader = document.getElementById("loading");
-        function loadFunc(){
-            preloader.style.display="none";
+        function loadFunc() {
+            preloader.style.display = "none";
         }
-        
 
-        $(document).ready(function(){
+
+        $(document).ready(function () {
             $(this).scrollTop(0);
+            $(".navbar-nav li").removeClass("active");
+            $('#home-link').addClass('active');
         });
 
-        $(window).scroll(function(){
-	        $('nav').toggleClass('scrolled', $(this).scrollTop() > 40);
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 40);
             $('nav').toggleClass('navbar-light', $(this).scrollTop() > 40);
         });
 
-        $(".navbar-nav li").on("click", function() {
+        $(window).scroll(function () {
+
+            if ($(this).scrollTop() >= 0 && $(this).scrollTop() < 400) {
+                $(".navbar-nav li").removeClass("active");
+                $('#home-link').addClass('active');
+            }
+            else if ($(this).scrollTop() > 400 && $(this).scrollTop() < 700) {
+                $(".navbar-nav li").removeClass("active");
+                $('#about-link').addClass('active');
+            }
+            else if ($(this).scrollTop() > 700 && $(this).scrollTop() < 2000) {
+                $(".navbar-nav li").removeClass("active");
+                $('#howto-link').addClass('active');
+            }
+            else if ($(this).scrollTop() > 2000 && $(this).scrollTop() < 2600) {
+                $(".navbar-nav li").removeClass("active");
+                $('#tool-link').addClass('active');
+            }
+            else{
+                $(".navbar-nav li").removeClass("active");
+                $('#team-link').addClass('active');
+            }
+        })
+
+        $(".navbar-nav li").on("click", function () {
             $(".navbar-nav li").removeClass("active");
             $(this).addClass("active");
         });
 
-        window.onscroll = function() {scrollFunction()};
+        window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
             if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
                 document.getElementById("navbar").classList.add("navbar-light");
                 document.getElementById("navbar").classList.remove("navbar-dark");
-                document.getElementById("text-black").style.color="black";
+                document.getElementById("text-black").style.color = "black";
             }
-            else{
+            else {
                 document.getElementById("navbar").classList.add("navbar-dark");
                 document.getElementById("navbar").classList.remove("navbar-light");
-                document.getElementById("text-black").style.color="white";
+                document.getElementById("text-black").style.color = "white";
             }
         }
 
     </script>
 
 </body>
+
 </html>
