@@ -6,6 +6,8 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 
@@ -287,3 +289,16 @@ a.navbar-brand .brand-color{
     padding: 0.6rem 0rem;
 }
 
+@media only screen and (max-width: 640px) {
+
+    nav{
+        border-bottom: none;
+    }
+    nav ul{
+        background-color: white;
+        
+    }
+    nav ul li a{
+        color: black !important;
+    }
+}
