@@ -307,6 +307,9 @@
             preloader.style.display = "none";
         }
 
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
+        });
         
 
         $(document).ready(function () {
@@ -334,7 +337,7 @@
                 $(".navbar-nav li").removeClass("active");
                 $('#howto-link').addClass('active');
             }
-            else if ($(this).scrollTop() > 2000 && $(this).scrollTop() < 2600) {
+            else if ($(this).scrollTop() > 2000 && $(this).scrollTop() < 2800) {
                 $(".navbar-nav li").removeClass("active");
                 $('#tool-link').addClass('active');
             }
