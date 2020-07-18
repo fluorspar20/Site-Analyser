@@ -178,6 +178,7 @@ a.navbar-brand .brand-color{
 }
 
 .section-content p{
+    width: 70%;
     font-size: 1rem;
     color: rgb(37, 37, 37);
 }
@@ -349,6 +350,10 @@ a.navbar-brand .brand-color{
     .about-img{
         opacity: 0.7;
         height: 50vh !important;
+    }
+
+    .about-content .section-content p{
+        width: 100%;
     }
 
 }
