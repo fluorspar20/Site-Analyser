@@ -96,7 +96,7 @@ a.navbar-brand{
 }
 
 a.navbar-brand .brand-color{
-    color: rgb(235, 201, 128);
+    color: #efaf61;
 }
 
 .navbar-toggler{
@@ -152,7 +152,16 @@ a.navbar-brand .brand-color{
     width: 3.5rem;
 }
 
+.about{
+    display: flex;
+}
+
+.abt-content{
+    justify-content: center;
+}
+
 .section-content{
+    text-align: left;
     padding: 30px 0px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(92, 92, 92);
@@ -257,7 +266,7 @@ a.navbar-brand .brand-color{
 }
 
 .brand-color{
-    color: rgb(235, 201, 128);
+    color: #efaf61;
 }
 
 .quick-links{
