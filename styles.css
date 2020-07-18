@@ -40,7 +40,7 @@ legend {
 }
 
 .main-pg{
-    background: url('./assets/background.jpg') ;
+    background: url('./assets/background\ 2-01.jpg') ;
     height: 100vh;
     width: 100%;
     background-position: center ;
@@ -130,6 +130,23 @@ a.navbar-brand .brand-color{
     padding: 0.3rem;
 }
 
+.about img{
+    width: 100%;
+    height: 90vh;
+}
+
+.about-content{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    
+}
+
+.about-content .section-content p{
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
 .section-title{
     padding: 15px 0px;
 }
@@ -137,7 +154,7 @@ a.navbar-brand .brand-color{
 .section-title h2{
     font-size: 2.5rem;
     font-family: 'Open Sans', sans-serif;
-    color: #007bff;
+    color: #161b41;
 }
 
 .section-title h2::after{

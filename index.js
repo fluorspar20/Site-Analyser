@@ -27,11 +27,11 @@ AOS.init();
                 $(".navbar-nav li").removeClass("active");
                 $('#home-link').addClass('active');
             }
-            else if ($(this).scrollTop() > 400 && $(this).scrollTop() < 700) {
+            else if ($(this).scrollTop() > 400 && $(this).scrollTop() < 1100) {
                 $(".navbar-nav li").removeClass("active");
                 $('#about-link').addClass('active');
             }
-            else if ($(this).scrollTop() > 700 && $(this).scrollTop() < 2000) {
+            else if ($(this).scrollTop() > 1100 && $(this).scrollTop() < 2400) {
                 $(".navbar-nav li").removeClass("active");
                 $('#howto-link').addClass('active');
             }
