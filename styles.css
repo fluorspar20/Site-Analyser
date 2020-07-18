@@ -327,4 +327,20 @@ a.navbar-brand .brand-color{
     nav ul li a{
         color: black !important;
     }
+
+    .about-img{
+        opacity: 0.7;
+    }
+
+    .about-content .section-content p{
+        color: rgb(54, 54, 54);
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .about-img{
+        opacity: 0.7;
+        height: 50vh !important;
+    }
+
 }
