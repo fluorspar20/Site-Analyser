@@ -40,7 +40,7 @@ legend {
 }
 
 .main-pg{
-    background: url('https://images.unsplash.com/photo-1516249181155-bbf89a130f77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80') ;
+    background: url('./assets/background.jpg') ;
     height: 100vh;
     width: 100%;
     background-position: center ;
@@ -96,7 +96,7 @@ a.navbar-brand{
 }
 
 a.navbar-brand .brand-color{
-    color: orangered;
+    color: rgb(235, 201, 128);
 }
 
 .navbar-toggler{
@@ -105,17 +105,7 @@ a.navbar-brand .brand-color{
     outline: none !important;
 }
 
-.carousel-item img{
-    width: 100%;
-    height: 30rem;
-}
 
-.hero{
-    padding: 50vh 0 0 0;
-    margin: auto;
-    align-items: center;
-    display: inline-block;
-}
 
 .wrapper{
     text-align: center;
@@ -168,6 +158,9 @@ a.navbar-brand .brand-color{
     color: rgb(92, 92, 92);
 }
 
+.section-content p{
+    font-size: 1rem;
+}
 
 #about{
     text-align: center;
@@ -264,7 +257,7 @@ a.navbar-brand .brand-color{
 }
 
 .brand-color{
-    color: orangered;
+    color: rgb(235, 201, 128);
 }
 
 .quick-links{
