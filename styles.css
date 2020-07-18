@@ -152,13 +152,6 @@ a.navbar-brand .brand-color{
     width: 3.5rem;
 }
 
-.about{
-    display: flex;
-}
-
-.abt-content{
-    justify-content: center;
-}
 
 .section-content{
     text-align: left;
