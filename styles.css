@@ -332,10 +332,11 @@ a.navbar-brand .brand-color{
 
     .about-img{
         opacity: 0.7;
-        height: 60vh !important;
+        height: 100vh !important;
     }
 
     .about-content .section-content p{
+        font-size: 1rem !important;
         color: rgb(37, 37, 37);
     }
 
@@ -350,7 +351,7 @@ a.navbar-brand .brand-color{
 @media only screen and (max-width: 480px) {
     .about-img{
         opacity: 0.7;
-        height: 60vh !important;
+        height: 80vh !important;
     }
 
     .about-content .section-content p{
