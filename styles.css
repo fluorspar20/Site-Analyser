@@ -317,6 +317,15 @@ a.navbar-brand .brand-color{
     padding: 0.6rem 0rem;
 }
 
+
+@media only screen and (max-width: 1000px) {
+    .about-content .section-content p{
+        font-size: 1rem !important;
+        color: rgb(37, 37, 37);
+    }
+
+}
+
 @media only screen and (max-width: 767px) {
 
     nav{
