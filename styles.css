@@ -369,6 +369,17 @@ a.navbar-brand .brand-color{
         font-size: 1rem !important;
     }
 
+    .main-pg{
+        background: url('./assets/background\ 2-01-01-03-01.jpeg') ;
+        height: 100vh;
+        width: 100%;
+        background-position: center ;
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media only screen and (max-height: 560px) {
