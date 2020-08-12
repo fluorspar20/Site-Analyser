@@ -1,0 +1,28 @@
+{
+  "name": "site-analyser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imagemin": "imagemin assets/* --out-dir=dist/assets",
+    "build": "npm run imagemin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluorspar20/Site-Analyser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fluorspar20/Site-Analyser/issues"
+  },
+  "homepage": "https://github.com/fluorspar20/Site-Analyser#readme",
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
+    "rimraf": "^2.6.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.5.1"
+  }
+}
