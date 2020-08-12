@@ -35,14 +35,6 @@ AOS.init();
                 $(".navbar-nav li").removeClass("active");
                 $('#howto-link').addClass('active');
             }
-            else if ($(this).scrollTop() > 2000 && $(this).scrollTop() < 2800) {
-                $(".navbar-nav li").removeClass("active");
-                $('#tool-link').addClass('active');
-            }
-            /*else{
-                $(".navbar-nav li").removeClass("active");
-                $('#team-link').addClass('active');
-            }*/
         })
 
         $(".navbar-nav li").on("click", function () {

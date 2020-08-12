@@ -40,7 +40,7 @@ legend {
 }
 
 .main-pg{
-    background: url('./assets/background\ 2-01.jpg') ;
+    background: url('./assets/desktopbg.jpg') ;
     height: 100vh;
     width: 100%;
     background-position: center ;
@@ -370,7 +370,7 @@ a.navbar-brand .brand-color{
     }
 
     .main-pg{
-        background: url('./assets/background\ 2-01-01-03-01.jpeg') ;
+        background: url('./assets/phonebg.jpeg') ;
         height: 100vh;
         width: 100%;
         background-position: center ;
