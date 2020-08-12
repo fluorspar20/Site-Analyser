@@ -318,6 +318,26 @@ a.navbar-brand .brand-color{
     padding: 0.6rem 0rem;
 }
 
+.back{
+    margin: 50px 0 !important;
+    display: flex;
+    justify-content: center;
+}
+
+.back a{
+    background-color: rgb(255, 198, 9);
+    border: 1px solid rgb(255, 198, 9);
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.back a:hover{
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
 
 @media only screen and (max-width: 1000px) {
     .about-content .section-content p{
