@@ -302,6 +302,7 @@ a.navbar-brand .brand-color{
 
 .links a{
     color: white;
+    opacity: 0.8;
     text-decoration: none;
     margin: 0.2rem;
 }
